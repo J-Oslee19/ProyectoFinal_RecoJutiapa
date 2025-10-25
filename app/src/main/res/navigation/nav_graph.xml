@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/onboardingFragment">
+
+    <!-- Onboarding -->
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.compufire.recomendacionesdeproductosyservicios.ui.onboarding.OnboardingFragment"
+        android:label="@string/title_onboarding">
+        <action
+            android:id="@+id/action_onboardingFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <!-- Home -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.compufire.recomendacionesdeproductosyservicios.ui.home.HomeFragment"
+        android:label="@string/title_home">
+
+        <action
+            android:id="@+id/action_home_to_detail"
+            app:destination="@id/detailFragment" />
+
+        <action
+            android:id="@+id/action_home_to_search"
+            app:destination="@id/searchFragment" />
+
+        <action
+            android:id="@+id/action_home_to_favorites"
+            app:destination="@id/favoritesFragment" />
+
+        <action
+            android:id="@+id/action_home_to_chat"
+            app:destination="@id/chatFragment" />
+
+        <action
+            android:id="@+id/action_home_to_prefs"
+            app:destination="@id/prefsFragment" />
+    </fragment>
+
+    <!-- Detail -->
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.compufire.recomendacionesdeproductosyservicios.ui.detail.DetailFragment"
+        android:label="@string/title_detail">
+        <argument
+            android:name="itemId"
+            app:argType="integer" />
+    </fragment>
+
+    <!-- Search -->
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.compufire.recomendacionesdeproductosyservicios.ui.search.SearchFragment"
+        android:label="@string/title_search" />
+
+    <!-- Favorites -->
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.compufire.recomendacionesdeproductosyservicios.ui.favorites.FavoritesFragment"
+        android:label="@string/title_favorites" />
+
+    <!-- Chat -->
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.compufire.recomendacionesdeproductosyservicios.ui.chat.ChatFragment"
+        android:label="@string/title_chat" />
+
+    <!-- Prefs -->
+    <fragment
+        android:id="@+id/prefsFragment"
+        android:name="com.compufire.recomendacionesdeproductosyservicios.ui.prefs.PrefsFragment"
+        android:label="@string/title_prefs" />
+
+    <!-- Booking History -->
+    <fragment
+        android:id="@+id/bookingHistoryFragment"
+        android:name="com.compufire.recomendacionesdeproductosyservicios.ui.booking.BookingHistoryFragment"
+        android:label="Historial" />
+
+</navigation>

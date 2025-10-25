@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Incluir todas las preferencias -->
+        <include domain="sharedpref" path="." />
+        <!-- Incluir todas las bases de datos -->
+        <include domain="database" path="." />
+        <!-- Incluir todos los archivos de la app -->
+        <include domain="files" path="." />
+        <!-- Ejemplo de exclusión si necesitas -->
+        <!-- <exclude domain="cache" path="." /> -->
+    </cloud-backup>
+
+    <device-transfer>
+        <!-- Igual que en cloud-backup para migración de dispositivo -->
+        <include domain="sharedpref" path="." />
+        <include domain="database" path="." />
+        <include domain="files" path="." />
+    </device-transfer>
+</data-extraction-rules>

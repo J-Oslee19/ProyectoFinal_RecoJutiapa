@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta Material 3 Light -->
+    <color name="md_theme_light_primary">#0B7C6C</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_secondary">#FFB300</color>
+    <color name="md_theme_light_tertiary">#1E88E5</color>
+    <color name="md_theme_light_background">#FFFFFF</color>
+    <color name="md_theme_light_surface">#FAFAFA</color>
+    <color name="md_theme_light_outline">#D0D5DD</color>
+    <!-- Paleta Material 3 Dark -->
+    <color name="md_theme_dark_primary">#53D0BE</color>
+    <color name="md_theme_dark_onPrimary">#003731</color>
+    <color name="md_theme_dark_secondary">#FFD45E</color>
+    <color name="md_theme_dark_tertiary">#90CAF9</color>
+    <color name="md_theme_dark_background">#0B0F10</color>
+    <color name="md_theme_dark_surface">#111417</color>
+    <color name="md_theme_dark_outline">#3A4046</color>
+</resources>

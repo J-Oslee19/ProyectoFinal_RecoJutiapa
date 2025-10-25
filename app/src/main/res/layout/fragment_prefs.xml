@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Toolbar local -->
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar_prefs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorSurface"
+            android:elevation="4dp"
+            app:title="@string/title_prefs"
+            app:titleCentered="true" />
+
+        <!-- Presupuesto -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prefs_budget_title"
+            android:textStyle="bold"
+            android:paddingTop="12dp" />
+
+        <EditText
+            android:id="@+id/etMin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prefs_min"
+            android:inputType="numberDecimal"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/etMax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prefs_max"
+            android:inputType="numberDecimal"
+            android:padding="8dp"
+            android:layout_marginTop="4dp" />
+
+        <!-- Categorías -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prefs_cats_title"
+            android:textStyle="bold"
+            android:paddingTop="12dp" />
+
+        <CheckBox
+            android:id="@+id/cbComida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prefs_cat_food" />
+
+        <CheckBox
+            android:id="@+id/cbServicios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prefs_cat_services" />
+
+        <CheckBox
+            android:id="@+id/cbTecnologia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prefs_cat_tech" />
+
+        <!-- Switch ubicación -->
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swUbicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prefs_use_location"
+            android:layout_marginTop="12dp" />
+
+        <!-- Botón guardar -->
+        <Button
+            android:id="@+id/btnGuardarPrefs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prefs_save"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
+

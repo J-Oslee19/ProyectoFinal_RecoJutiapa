@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">RecoJutiapa</string>
+
+    <!-- Pantallas -->
+    <string name="title_onboarding">¡Bienvenido a RecoJutiapa!</string>
+    <string name="title_home">Recomendaciones</string>
+    <string name="title_search">Buscar</string>
+    <string name="title_detail">Detalle</string>
+    <string name="title_favorites">Favoritos</string>
+    <string name="title_chat">Chat IA</string>
+    <string name="title_prefs">Preferencias</string>
+
+    <!-- Botones y acciones -->
+    <string name="action_why">¿Por qué?</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_filter">Filtrar</string>
+    <string name="action_favorite">Favorito</string>
+    <string name="action_rate">Calificar</string>
+    <string name="action_ask_ai">Preguntar a IA</string>
+    <string name="action_retry">Reintentar</string>
+    <string name="action_prefs">Preferencias</string>
+
+    <!-- Favoritos -->
+    <string name="add_favorite">Agregar a Favoritos</string>
+    <string name="remove_favorite">Quitar de Favoritos</string>
+
+    <!-- Mensajes de error y vacíos -->
+    <string name="msg_empty_list">No hay recomendaciones disponibles.</string>
+    <string name="msg_error_loading">Ocurrió un error al cargar los datos.</string>
+    <string name="msg_no_internet">Sin conexión a internet.</string>
+    <string name="msg_no_ai_response">No se pudo obtener explicación de IA.</string>
+    <string name="msg_no_favorites">Aún no tienes favoritos.</string>
+    <string name="msg_no_results">No se encontraron resultados.</string>
+
+    <!-- Labels generales -->
+    <string name="label_category">Categoría</string>
+    <string name="label_budget">Presupuesto</string>
+    <string name="label_distance">Distancia</string>
+    <string name="label_rating">Calificación</string>
+    <string name="label_vendor">Proveedor</string>
+    <string name="label_contact">Contacto</string>
+    <string name="label_location">Ubicación</string>
+
+    <!-- Preferencias -->
+    <string name="prefs_budget_title">Presupuesto (Q)</string>
+    <string name="prefs_min">Mínimo</string>
+    <string name="prefs_max">Máximo</string>
+    <string name="prefs_cats_title">Categorías preferidas</string>
+    <string name="prefs_cat_food">Comida</string>
+    <string name="prefs_cat_services">Servicios</string>
+    <string name="prefs_cat_tech">Tecnología</string>
+    <string name="prefs_use_location">Usar ubicación real</string>
+    <string name="prefs_save">Guardar</string>
+    <string name="prefs_saved_toast">Preferencias guardadas</string>
+    <string name="prefs_invalid_range">El máximo no puede ser menor que el mínimo</string>
+
+    <!-- Booking / Detail -->
+    <string name="reservar_consultar">Reservar / Consultar</string>
+    <string name="no_item_loaded">No se cargó el elemento actual.</string>
+    <string name="consultando_gemini">Consultando Gemini…</string>
+    <string name="reservado_desde_app">Reservado desde app</string>
+    <string name="ver_historial">Ver historial</string>
+    <string name="respuesta_vacia_servidor">Respuesta vacía del servidor</string>
+    <string name="vendor_id_format">Proveedor: %d</string>
+    <string name="por_que_title">¿Por qué esta recomendación?</string>
+    <string name="loading_message">Un momento por favor</string>
+    <string name="error_prefix">Error: %1$s</string>
+    <string name="estado_codigo_format">Estado: %1$s • Código: %2$s</string>
+
+    <!-- Historial -->
+    <string name="menu_history">Historial</string>
+</resources>
