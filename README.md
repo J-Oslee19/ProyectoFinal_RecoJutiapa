@@ -1,16 +1,32 @@
-#*Video de la Fase 1*
+1.**Video de la Fase 1**
 https://drive.google.com/file/d/1zFTT0BSH5ARVjVtD-0oZxg8HazFoHqdT/view?usp=drivesdk
 
-#*Video de Flujo de n8n de Expocicion de la app Actualizada*
-*DESCRIPCION DEL PROYECTO*
-*INSTRUCCIONES DE INSTALACIÓN*
-*EXPLICACIÓN DE LA INTEGRACIÓN CON N8N*
-*CAPTURAS DE PANTALLA O DIFs DEMOSTRATIVOS*
-*REQUISITOS Y DEPENDENCIAS*
+1.**Video de Flujo de n8n de Expocicion de la app Actualizada**
+https://drive.google.com/file/d/1-FHNxRhs1CRhh_T2nbmLEj42vSO3_LvU/view?usp=drivesdk
 
-*FLUJO DE n8n(archivo .json)*
 
-*DOCUMENTO DE PROPUESTA*
+2.**ESTE DOCUMENTO CONTIENE TODOS ESTOS 5 PUNTOS**
+   1.DESCRIPCION DEL PROYECTO
+   2.INSTRUCCIONES DE INSTALACIÓN
+   3.EXPLICACIÓN DE LA INTEGRACIÓN CON N8N
+   4.CAPTURAS DE PANTALLA O DIFs DEMOSTRATIVOS
+   5.REQUISITOS Y DEPENDENCIAS
+https://drive.google.com/file/d/1cAiMaYmBQQFE4q7ltm05e6Ng54Mbekxf/view?usp=drivesdk
+
+
+3.*FLUJO DE n8n(archivo .json)*
+https://drive.google.com/file/d/1cRr-sq9D-BvmhdlIWWN-RRP5vltU-uh9/view?usp=drivesdk
+
+
+4.**DOCUMENTO DE PROPUESTA ORIGINAL**
+https://drive.google.com/file/d/1lCxSOcqzxjOjnvUyNWyNN3zOIPRGMwcy/view?usp=drivesdk
+
+4.**DOCUMENTO DE PROPUESTA CON COMBIOS RESPECTO A LA PROPUESTA ORIGINAL**
+https://drive.google.com/file/d/1d8Ws8XCtWW_Qxf9dtgm8iQuaY4EW8ALT/view?usp=drivesdk
+
+
+
+
 
 # RecoJutiapa
 
