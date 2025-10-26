@@ -1,3 +1,17 @@
+#*Video de la Fase 1*
+https://drive.google.com/file/d/1zFTT0BSH5ARVjVtD-0oZxg8HazFoHqdT/view?usp=drivesdk
+
+#*Video de Flujo de n8n de Expocicion de la app Actualizada*
+*DESCRIPCION DEL PROYECTO*
+*INSTRUCCIONES DE INSTALACIÓN*
+*EXPLICACIÓN DE LA INTEGRACIÓN CON N8N*
+*CAPTURAS DE PANTALLA O DIFs DEMOSTRATIVOS*
+*REQUISITOS Y DEPENDENCIAS*
+
+*FLUJO DE n8n(archivo .json)*
+
+*DOCUMENTO DE PROPUESTA*
+
 # RecoJutiapa
 
 RecoJutiapa es una app Android para recomendaciones personalizadas de productos y servicios locales para estudiantes de Jutiapa/UMG.
